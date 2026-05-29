@@ -23,7 +23,7 @@ Most of my work is full-stack: building the frontend, the API layer, the data st
 ## Projects
 
 **[Nuclear Weather-Based Derating Forecaster](https://github.com/PeytonNagle/Team_10_HackArizona)**
-🏆 1st place, HackArizona 2026 AI Environmental Sustainability challenge (sponsored by Nuclearn.ai), against 100+ students. The only public 14-day nuclear derating forecast, addressing $200M+/year in industry losses. Built and deployed the full pipeline in 24 hours: a Next.js operator dashboard, a FastAPI service, a Postgres artifact store, and daily weather and river data refresh jobs. XGBoost regressors trained on 25+ years of NRC, USGS, and Open-Meteo data.
+🏆 1st place, HackArizona 2026 AI Environmental Sustainability challenge (sponsored by Nuclearn.ai), against 100+ students. A public 14-day nuclear derating forecast, addressing $200M+/year in industry losses. Built and deployed the full pipeline in 24 hours: a Next.js operator dashboard, a FastAPI service, a Postgres artifact store, and daily weather and river data refresh jobs. XGBoost regressors trained on 25+ years of NRC, USGS, and Open-Meteo data.
 *Next.js · FastAPI · Postgres · Python · XGBoost*
 
 **[MoodMusic](https://github.com/PeytonNagle/MoodMusic2)**
