@@ -4,7 +4,7 @@ Software engineering student at the University of Arizona (B.S., grad May 2027, 
 
 Looking for software engineering internships and new-grad roles for summer 2026 and beyond.
 
-📍 Tucson, AZ &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/peyton-nagle73213a299)
+📍 Tucson, AZ &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/peyton-nagle)
 
 ---
 
@@ -22,6 +22,10 @@ Most of my work is full-stack: building the frontend, the API layer, the data st
 
 ## Projects
 
+**[SpeakEasy](https://github.com/NateDeMoro/QuackHacksWildcats)**
+Browser-based real-time speech practice coach built for the Google Track at QuackHacks. Paste your slides or script, describe your audience, then speak — the app tracks volume, pace, pauses, and pitch on-device while you practice, then generates a Gemini report judging your delivery against your actual material ("too much jargon for this audience," "you skipped your second point"). Also flags tone-content mismatches by comparing Gemini sentiment against acoustic prosody. pnpm TypeScript monorepo: a React/Vite SPA handling on-device audio processing, a Hono API on Cloud Run proxying Vertex AI and writing sessions to Firestore, served from Firebase Hosting with keyless ADC throughout.
+React · TypeScript · Hono · Vertex AI · Gemini · Firebase · Cloud Run · Firestore
+
 **[Nuclear Weather-Based Derating Forecaster](https://github.com/PeytonNagle/Team_10_HackArizona)**
 🏆 1st place, HackArizona 2026 AI Environmental Sustainability challenge (sponsored by Nuclearn.ai), against 100+ students. A public 14-day nuclear derating forecast, addressing $200M+/year in industry losses. Built and deployed the full pipeline in 24 hours: a Next.js operator dashboard, a FastAPI service, a Postgres artifact store, and daily weather and river data refresh jobs. XGBoost regressors trained on 25+ years of NRC, USGS, and Open-Meteo data.
 *Next.js · FastAPI · Postgres · Python · XGBoost*
@@ -38,4 +42,4 @@ Multi-phase PyTorch CNN pipeline for music genre classification. Pre-trained on 
 
 ## Currently
 
-Undergraduate Research Assistant at Space4 (June 2024–present), building monitoring tools and compute infrastructure for astronomical observation. Finishing my degree at the University of Arizona, with a semester at Hanyang University in Seoul (HCI, Computer Networks, Creative Software Design).
+Full-stack SWE intern at Nuclearn.ai (June 2026–present), building React/FastAPI software deployed across 60+ nuclear reactors. Previously undergraduate research assistant at Space4, where I built compute and monitoring infrastructure for astronomical observation. Finishing my B.S. in Software Engineering at the University of Arizona (May 2027), then continuing into the Software Engineering AMP for an accelerated M.S. Seeking Fall 2026 and Summer 2027 SWE internships.
