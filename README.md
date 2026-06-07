@@ -26,7 +26,7 @@ Most of my work is full-stack: building the frontend, the API layer, the data st
 Browser-based real-time speech practice coach built for the Google Track at QuackHacks. Paste your slides or script, describe your audience, then speak — the app tracks volume, pace, pauses, and pitch on-device while you practice, then generates a Gemini report judging your delivery against your actual material ("too much jargon for this audience," "you skipped your second point"). Also flags tone-content mismatches by comparing Gemini sentiment against acoustic prosody. pnpm TypeScript monorepo: a React/Vite SPA handling on-device audio processing, a Hono API on Cloud Run proxying Vertex AI and writing sessions to Firestore, served from Firebase Hosting with keyless ADC throughout.
 React · TypeScript · Hono · Vertex AI · Gemini · Firebase · Cloud Run · Firestore
 
-**[Nuclear Weather-Based Derating Forecaster](https://github.com/PeytonNagle/Team_10_HackArizona)**
+**[Nuclear Weather-Based Derating Forecaster](https://github.com/NateDeMoro/Team_10_HackArizona)**
 🏆 1st place, HackArizona 2026 AI Environmental Sustainability challenge (sponsored by Nuclearn.ai), against 100+ students. A public 14-day nuclear derating forecast, addressing $200M+/year in industry losses. Built and deployed the full pipeline in 24 hours: a Next.js operator dashboard, a FastAPI service, a Postgres artifact store, and daily weather and river data refresh jobs. XGBoost regressors trained on 25+ years of NRC, USGS, and Open-Meteo data.
 *Next.js · FastAPI · Postgres · Python · XGBoost*
 
