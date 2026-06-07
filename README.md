@@ -34,7 +34,7 @@ React · TypeScript · Hono · Vertex AI · Gemini · Firebase · Cloud Run · F
 Full-stack LLM-driven music recommendation system. Takes a user's mood and constraints, generates and filters song candidates, enriches results through the Spotify API, and stores listening history in Postgres. Built while studying abroad in Seoul, leading a 5-country team — I defined the architecture, set weekly plans, and assigned task ownership to ship a working prototype on schedule.
 *Full-stack · LLM API · Spotify API · Postgres*
 
-**[Instrument & Genre Classifier](https://github.com/PeytonNagle/InstrumentGenereClassifier)**
+**[Instrument & Genre Classifier](https://github.com/PeytonNagle/InstrumentGenreClassifier)**
 Multi-phase PyTorch CNN pipeline for music genre classification. Pre-trained on NSynth (305K samples), fine-tuned on IRMAS, then fused instrument predictions with audio features to improve GTZAN classification. Evaluated with statistical testing (McNemar's) and standard metrics to confirm the instrument features actually helped.
 *PyTorch · CNNs · Python*
 
