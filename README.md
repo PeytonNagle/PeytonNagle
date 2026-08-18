@@ -4,7 +4,7 @@ Software engineering student at the University of Arizona (B.S., grad May 2027, 
 
 I build full-stack web apps and the systems behind them — UI's, APIs, databases, deployment, networking. Recently won HackArizona 2026 with a 14-day nuclear derating forecaster.
 
-Looking for software engineering internships and new-grad roles for Fall 2026 and Summer 2027!
+Looking for software engineering internships and new-grad roles for Summer 2027!
 
 📍 Tucson, AZ &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/peyton-nagle)
 
