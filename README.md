@@ -6,7 +6,7 @@ I build full-stack web apps and the systems behind them — UI's, APIs, database
 
 Looking for software engineering internships and new-grad roles for Summer 2027!
 
-📍 Tucson, AZ &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/peyton-nagle)
+📍 Tucson, AZ &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/peytonnagle)
 
 ---
 
