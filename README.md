@@ -24,6 +24,10 @@ Most of my work is full-stack: building the frontend, the API layer, the data st
 
 ## Projects
 
+**[RiskER](https://github.com/NateDeMoro/RiskER)**
+Wearable plus live nurse dashboard built at the LA Hacks AI Hackathon 2026 that ranks ER waiting-room patients by deterioration risk in real time. A Python risk engine personalizes NEWS2 alert thresholds in three layers: NHANES-fit population ranges, a per-patient baseline tuned on 1,945 eICU stays, and an LLM context adjuster that reads intake notes and can only tighten limits (69/70 held-out cases exactly right, zero false changes). LightGBM models trained on ~1M minutes of MIMIC-III vitals forecast each vital 15 minutes out, cutting error 30–55% versus persistence and warning ~25 minutes before a patient reaches danger. Persistence windows cut alerts on surviving patients by 31% while still catching all 167 who didn't survive. Bluetooth heart-rate data streams through FastAPI WebSockets to a React board, and a Fetch.ai agent on ASI:One answers nurse questions like "Who needs a recheck right now?" from live data.
+*Python · FastAPI · WebSockets · LightGBM · React · TypeScript · Fetch.ai*
+
 **[SpeakEasy](https://github.com/NateDeMoro/QuackHacksWildcats)**
 Browser-based real-time speech practice coach built for the Google Track at QuackHacks. Paste your slides or script, describe your audience, then speak — the app tracks volume, pace, pauses, and pitch on-device while you practice, then generates a Gemini report judging your delivery against your actual material ("too much jargon for this audience," "you skipped your second point"). Also flags tone-content mismatches by comparing Gemini sentiment against acoustic prosody. pnpm TypeScript monorepo: a React/Vite SPA handling on-device audio processing, a Hono API on Cloud Run proxying Vertex AI and writing sessions to Firestore, served from Firebase Hosting with keyless ADC throughout.
 React · TypeScript · Hono · Vertex AI · Gemini · Firebase · Cloud Run · Firestore
