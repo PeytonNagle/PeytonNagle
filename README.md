@@ -1,6 +1,6 @@
 # Peyton Nagle
 
-Software engineering student at the University of Arizona (B.S., grad May 2027, GPA 3.95). SWE Intern @ Nuclearn.ai -- shipping LLM software running at 70 + nuclear utilities.
+Software engineering student at the University of Arizona (M.S. grad May 2028, B.S. grad May 2027, GPA 3.95). SWE Intern @ Nuclearn.ai -- shipping LLM software running at 70 + nuclear utilities.
 
 I build full-stack web apps and the systems behind them — UI's, APIs, databases, deployment, networking. Recently won HackArizona 2026 with a 14-day nuclear derating forecaster.
 
